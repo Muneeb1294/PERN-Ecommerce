@@ -1,0 +1,23 @@
+# Local environment and secrets (never commit)
+.env
+.env.*
+!.env.example
+*.local
+server/config/config.env
+server/config/.env
+**/config.local.env
+**/secrets.json
+*.pem
+*.key
+.id_rsa*
+*.p12
+
+# Dependencies
+node_modules/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
